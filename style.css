@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Header{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 60px;
+}
+
+.Logo{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding-right: 40px;
+    gap: 16px;
+}
+
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.left, .right{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.Hero{
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 60px 100px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+}
+
+.Hero h1{
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.Hero p{
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.btn{
+    background: #3882f6;
+    color: white;
+    border: none;
+    padding: 8px 45px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.Hero img{
+    height: 200px;
+    width: 400px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+.Info{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    text-align: center;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.InfoImg{
+    max-width: 200px;
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    font-size: 14px;
+}
+
+.quoteSection{
+    background-color: #e5e7eb;
+    padding: 80px 150px;
+    text-align: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+.author{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1f2937;
+    text-align: right;
+}
+
+.SignUp{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    margin: 100px 150px;
+    border-radius: 10px;
+}
+
+.SignUp .btn{
+    border: 2px solid #e5e7eb;
+}
+
+.signUpText p{
+    font-size: 14px;
+}
+
+.Footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 24px;
+    font-size: 14px;
+}
